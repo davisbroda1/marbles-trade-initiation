@@ -281,9 +281,10 @@ var options = 	{
 						options: {quiet: true, tls:false, maxRetry: 5}
 					},
 					chaincode:{
-						zip_url: 'https://github.com/ruslan120101/marbles-chaincode/archive/master.zip',
+					    //DAVIS: Changed this to match my repo to see if it would work with the new chaincode
+						zip_url: 'https://github.com/davisbroda1/marbles-chaincode/archive/master.zip',
 						unzip_dir: 'marbles-chaincode-master/part2_v1.0.0',								//subdirectroy name of chaincode after unzipped
-						git_url: 'https://github.com/ruslan120101/marbles-chaincode/part2_v1.0.0',				//GO git http url
+						git_url: 'https://github.com/davisbroda1/marbles-chaincode/part2_v1.0.0',				//GO git http url
 					
 						//hashed cc name from prev deployment
 						//deployed_name: 'c5181b2ecd0c291d3bdc692921ba65e58d502aa35db2a06539e8a41398548f30c76990544f2edcc10ba4d25621dd1ef7e4c9f04ccab1b907ddc6914c3bc39a64'
